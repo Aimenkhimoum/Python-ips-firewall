@@ -27,6 +27,7 @@ La politique de sécurité est centralisée dans le fichier `security_policy.jso
   "trusted_ips": ["127.0.0.1", "192.168.1.254", "10.0.0.5"],
   "signatures": ["GET /scripts/root.exe", "UNION SELECT", "<script>alert"]
 }
+```
 
 ## 🚀 Installation & Prérequis
 
@@ -43,7 +44,7 @@ sudo apt install python3-scapy
 # 3. Clonage du dépôt
 git clone [https://github.com/VOTRE_PSEUDO/python-ips-firewall.git](https://github.com/VOTRE_PSEUDO/python-ips-firewall.git)
 cd python-ips-firewall
-
+```
 ## 💻 Utilisation
 
 ### 1. Démarrer le moteur IPS
@@ -56,7 +57,7 @@ sudo python3 firewall.py
 Un script de simulation (nimda.py) est fourni pour tester la réaction du pare-feu face à une signature malveillante spécifique.
 
 Modifiez la variable cible_ip dans le script, puis lancez : sudo python3 nimda.py
-
+```
 ## ⚠️ Avertissement
 Ce projet a été développé à des fins éducatives et de démonstration technique dans le cadre d'une recherche d'alternance en Cybersécurité/Réseaux. Bien qu'il illustre des concepts réels (DPI, mitigation volumétrique), il n'est pas destiné à remplacer un équipement de sécurité matériel (type Palo Alto, Stormshield) en environnement de production.
  
